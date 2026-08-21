@@ -45,3 +45,26 @@ border-left: 4px solid #2563eb;
 background-color: #f9fafb;
 }
 
+nav {
+background-color: #2e7d32;
+padding: 15px;
+text-align: center;
+position: sticky;
+top: 0;
+z-index: 1000;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin: 0 15px;
+font-weight: bold;
+}
+
+nav a:hover {
+text-decoration: underline;
+}
+
+html {
+scroll-behavior: smooth;
+}
