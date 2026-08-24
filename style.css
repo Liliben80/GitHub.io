@@ -2,32 +2,34 @@ body {
 font-family: Arial, sans-serif;
 margin: 0;
 background-color: #f4fbf6;
-color: #1f2937;
+color: #173b2a;
 line-height: 1.6;
 }
 
 header {
-background-color: linear-gradient(to right, #00FF00, #006400);
+background: linear-gradient(135deg, #065f46, #10b981);
 color: white;
-padding: 60px 20px;
+padding: 90px 20px;
 text-align: center;
 }
 
 section {
 max-width: 900px;
 margin: 40px auto;
-padding: 30px;
+padding: 40px;
 background-color: white;
-border-radius: 12px;
+border-radius: 18px;
+box-shadow: 0 6px 20px rgba(0, 80, 50, 0.08);
 }
 
 h1 {
-font-size: 42px;
-margin-bottom: 10px;
+font-size: 52px;
+margin-bottom: 15px;
 }
 
 h2 {
-color: #2563eb;
+color: #047857;
+font-size: 30px;
 }
 
 ul {
@@ -39,10 +41,11 @@ margin-bottom: 8px;
 }
 
 .project {
-padding: 20px;
-margin-top: 20px;
-border-left: 4px solid #2563eb;
-background-color: #f9fafb;
+padding: 25px;
+margin-top: 25px;
+border-radius: 15px;
+background: linear-gradient(135deg, #f0fd4, #dcfce7);
+border-left: 5px solid #10b981;
 }
 
 nav {
@@ -58,12 +61,14 @@ box-shadow : 0 3px 12px rgba(0, 80, 50, 0.2);
 nav a {
 color: white;
 text-decoration: none;
-margin: 0 15px;
+margin: 0 18px;
 font-weight: bold;
+transition: 0.3s;
 }
 
 nav a:hover {
 text-decoration: underline;
+color: #d1fae5;
 }
 
 html {
