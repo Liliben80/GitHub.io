@@ -47,11 +47,12 @@ background-color: #f9fafb;
 
 nav {
 background: linear-gradient(90deg, #064e3b, #059669, #34d3999);
-padding: 15px;
+padding: 16px;
 text-align: center;
 position: sticky;
 top: 0;
 z-index: 1000;
+box-shadow : 0 3px 12px rgba(0, 80, 50, 0.2);
 }
 
 nav a {
