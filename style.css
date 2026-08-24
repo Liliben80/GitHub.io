@@ -1,9 +1,7 @@
 body {
 font-family: Arial, sans-serif;
 margin: 0;
-.degrade-vert {
-  background: linear-gradient(to right, #00FF00, #006400);
-}
+background-color: #f4fbf6;
 color: #1f2937;
 line-height: 1.6;
 }
@@ -48,7 +46,7 @@ background-color: #f9fafb;
 }
 
 nav {
-background-color: linear-gradient(to right, #00FF00, #006400);
+background: linear-gradient(90deg, #064e3b, #059669, #34d3999);
 padding: 15px;
 text-align: center;
 position: sticky;
