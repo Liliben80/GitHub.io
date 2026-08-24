@@ -102,6 +102,31 @@ background: linear-gradient(135deg, #f0fd4, #dcfce7);
 border-left: 5px solid #10b981;
 }
 
+.contact-links {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 15px;
+margin-top: 30px;
+}
+
+.contact-links a {
+display: inline-block;
+padding: 12px 22px;
+background: linear-gradient(135deg, #047857, #10b981);
+color: white;
+text-decoration: none;
+border-radius: 10px;
+font-weight: bold;
+transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contact-links a:hover {
+transform: translateY(-3px);
+box-shadow: 0 6px 15px rgba(5, 150, 105, 0.25);
+}
+
+
 nav {
 display: flex;
 justify-content: center;
